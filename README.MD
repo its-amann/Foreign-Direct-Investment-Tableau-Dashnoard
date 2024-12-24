@@ -31,6 +31,12 @@ The Foreign Direct Investment (FDI) Analytics Project aims to provide insightful
 - **Apply Filters**: Customize views by applying various filters (e.g., country, year, sector).
 - **Generate Insights**: Export visualizations and summaries for reporting and presentations.
 
+## Dashboard 1
+![alt text](dashboard 1.png)
+
+## Dashboard 2
+![alt text](dashboard 2.png)
+
 ## How the Dashboard is Made
 ### Sheet: KPI (Key Performance Indicator)
 
