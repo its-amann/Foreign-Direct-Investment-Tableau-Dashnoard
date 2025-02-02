@@ -1,7 +1,34 @@
-# Foreign Direct Investment (FDI) Analytics Project
+<div align="center">
+  
+# 📊 Foreign Direct Investment (FDI) Analytics Project
 
-## Overview
-The Foreign Direct Investment (FDI) Analytics Project aims to provide insightful analysis and visualization of global FDI trends. This project leverages Tableau for data visualization and a CSV data source containing FDI-related metrics.
+[![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)](https://www.tableau.com/)
+[![CSV](https://img.shields.io/badge/CSV-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://en.wikipedia.org/wiki/Comma-separated_values)
+[![Analytics](https://img.shields.io/badge/Analytics-4285F4?style=for-the-badge&logo=google-analytics&logoColor=white)](https://en.wikipedia.org/wiki/Analytics)
+
+</div>
+
+## 📑 Table of Contents
+- [Overview](#-overview)
+- [Features](#-features)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Dashboard Showcase](#-dashboard-showcase)
+- [Technical Implementation](#-technical-implementation)
+- [Contribution Guidelines](#-contribution-guidelines)
+- [Contact](#-contact)
+
+## 🌟 Overview
+The Foreign Direct Investment (FDI) Analytics Project is a comprehensive data visualization solution that transforms complex FDI data into actionable insights. Using Tableau's powerful visualization capabilities, this project offers interactive dashboards that help stakeholders understand global FDI trends and make informed decisions.
+
+## 🎯 Features
+- **🌍 Interactive Dashboards**: Dynamic exploration of FDI trends
+- **📊 Advanced Visualizations**: Custom-designed charts and maps
+- **🔍 Deep Analytics**: Comprehensive metrics and KPIs
+- **📈 Forecasting**: Predictive analysis of future trends
+- **🔄 Real-time Updates**: Automated data refresh capabilities
+
+## 📁 Project Structure
 
 ## Project Files
 - **Foreign Direct Investment Analytics.twbx**: Tableau Workbook containing interactive dashboards and visualizations.
@@ -32,15 +59,23 @@ The Foreign Direct Investment (FDI) Analytics Project aims to provide insightful
 - **Generate Insights**: Export visualizations and summaries for reporting and presentations.
 
 ## Dashboard 1
-![alt text](dashboard 1.png)
+<div align="center">
+  <img src="./_asserts/dashboard%201.png" width="100%" alt="Executive Dashboard">
+  
+  *Main dashboard showing comprehensive FDI metrics*
+</div>
 
 ## Dashboard 2
-![alt text](dashboard 2.png)
+<div align="center">
+  <img src="./_asserts/dashboard%202.png" width="100%" alt="Detailed Analysis">
+  
+  *Sector-wise analysis with comparative metrics*
+</div>
 
 ## How the Dashboard is Made
 ### Sheet: KPI (Key Performance Indicator)
 
-![alt text](image.png)
+<img src="./_asserts/image.png" width="60%" alt="KPI Implementation">
 This sheet is designed to display a single KPI value within a pie chart.
 
 
@@ -66,7 +101,7 @@ This sheet is designed to display a single KPI value within a pie chart.
    - Save the worksheet.
 
 ### Sheet: Maximum FDI
-![alt text](image-1.png)
+<img src="./_asserts/image-1.png" width="80%" alt="Maximum FDI">
 This sheet highlights the sectors with the highest FDI values in a given fiscal year.
 
 #### Steps to Create:
@@ -96,7 +131,7 @@ This sheet highlights the sectors with the highest FDI values in a given fiscal 
    - Save the worksheet.
 
 ### Sheet: Minimum FDI
-![alt text](image-2.png)
+<img src="./_asserts/image-2.png" width="80%" alt="Minimum FDI">
 This sheet displays the sectors with the lowest FDI values in a given fiscal year.
 #### Steps to Create:
 1. **Data Connection**:
@@ -125,7 +160,7 @@ This sheet displays the sectors with the lowest FDI values in a given fiscal yea
    - Save the worksheet.
 
 ### Sheet: Overall Trends
-![alt text](image-3.png)
+<img src="./_asserts/image-3.png" width="80%" alt="Overall Trends">
 This sheet visualizes the trends of FDI values over time.
 
 #### Steps to Create:
@@ -153,7 +188,7 @@ This sheet visualizes the trends of FDI values over time.
    - Save the worksheet.
 
 ### Sheet: Groups
-![alt text](image-4.png)
+<img src="./_asserts/image-4.png" width="80%" alt="Sector Groups">
 This sheet presents the total FDI value for various sectors grouped based on selected criteria.
 
 #### Steps to Create:
@@ -181,7 +216,7 @@ This sheet presents the total FDI value for various sectors grouped based on sel
 
 
 ### Sheet: Highest Growth in the Past 5 Years
-![alt text](image-5.png)
+<img src="./_asserts/image-5.png" width="80%" alt="5-Year Growth">
 This sheet identifies sectors with the highest growth in FDI values over five years.
 
 #### Steps to Build:
@@ -217,7 +252,11 @@ This sheet identifies sectors with the highest growth in FDI values over five ye
    - Save the worksheet and link it to dashboards or stories.
 
 ### Sheet: Proportion of FDI
-![alt text](image-6.png)
+<div align="center">
+  <img src="./_asserts/image-6.png" width="80%" alt="FDI Proportion">
+  
+  *Treemap showing proportional distribution of FDI*
+</div>
 This sheet uses a treemap to visualize the proportion of FDI values across different sectors.
 
 #### Steps to Build:
@@ -251,7 +290,7 @@ This sheet uses a treemap to visualize the proportion of FDI values across diffe
    - Save the worksheet and integrate it with dashboards for comparison purposes.
 
 ### Sheet: Cluster Visualization
-![alt text](image-7.png)
+<img src="./_asserts/image-7.png" width="80%" alt="Cluster Analysis">
 This sheet uses a bubble chart to represent clusters of sectors based on FDI value.
 
 #### Steps to Build:
@@ -262,7 +301,7 @@ This sheet uses a bubble chart to represent clusters of sectors based on FDI val
 
 2. **Create Clusters**:
 
-   - Use Tableau’s clustering functionality to create clusters based on `FDI Value` and other relevant dimensions (e.g., `Groups`).
+   - Use Tableau's clustering functionality to create clusters based on `FDI Value` and other relevant dimensions (e.g., `Groups`).
 
 3. **Build the Bubble Chart**:
 
@@ -286,7 +325,7 @@ This sheet uses a bubble chart to represent clusters of sectors based on FDI val
    - Save the worksheet for integration into dashboards or further analysis.
 
 ### Sheet: Trend Forecast
-![alt text](image-8.png)
+<img src="./_asserts/image-8.png" width="80%" alt="Trend Forecasting">
 This sheet provides a forecast of FDI values over future periods using a line graph.
 
 #### Steps to Build:
